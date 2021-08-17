@@ -11,9 +11,9 @@
     <updated>2021-08-17T11:26:32.000Z</updated>
     <category term="闲谈" />
     <entry>
-        <id>https://lollipopazhe.github.io/2021/08/17/Java/java01/</id>
+        <id>https://lollipopazhe.github.io/2021/08/17/java/java01/</id>
         <title>Java01-JDK安装及环境变量配置</title>
-        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/17/Java/java01/"/>
+        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/17/java/java01/"/>
         <content type="html">&lt;h1 id=&#34;jdk安装及环境变量配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jdk安装及环境变量配置&#34;&gt;#&lt;/a&gt; JDK 安装及环境变量配置&lt;/h1&gt;
 &lt;h4 id=&#34;1找到相应的jdk版本并下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1找到相应的jdk版本并下载&#34;&gt;#&lt;/a&gt; 1. 找到相应的 JDK 版本并下载&lt;/h4&gt;
 &lt;p&gt;JDK 下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamRrZG93bmxvYWQuY29tLzIwMjAvMDUvMTYvamRrJWU0JWI4JThiJWU4JWJkJWJkLw==&#34;&gt;https://www.jdkdownload.com/2020/05/16/jdk%e4%b8%8b%e8%bd%bd/&lt;/span&gt;&lt;/p&gt;
