@@ -20,34 +20,25 @@
             <category term="Java基础" scheme="https://lollipopazhe.github.io/categories/Java/" />
             <category term="Java" scheme="https://lollipopazhe.github.io/tags/Java/" />
             <pubDate>Tue, 17 Aug 2021 19:26:32 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;jdk安装及环境变量配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jdk安装及环境变量配置&#34;&gt;#&lt;/a&gt; JDK 安装及环境变量配置&lt;/h1&gt;
-&lt;h4 id=&#34;1找到相应的jdk版本并下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1找到相应的jdk版本并下载&#34;&gt;#&lt;/a&gt; 1. 找到相应的 JDK 版本并下载&lt;/h4&gt;
-&lt;p&gt;JDK 下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamRrZG93bmxvYWQuY29tLzIwMjAvMDUvMTYvamRrJWU0JWI4JThiJWU4JWJkJWJkLw==&#34;&gt;https://www.jdkdownload.com/2020/05/16/jdk%e4%b8%8b%e8%bd%bd/&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;2安装过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2安装过程&#34;&gt;#&lt;/a&gt; 2. 安装过程&lt;/h4&gt;
-&lt;p&gt;选择合适的安装目录（记住这个安装目录，后边配置环境变量要用到），其他步骤一直点下一步即可。&lt;/p&gt;
-&lt;h4 id=&#34;3环境变量配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3环境变量配置&#34;&gt;#&lt;/a&gt; 3. 环境变量配置&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;右击 “我的电脑”→属性→高级系统设置→环境变量&lt;/li&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;JDK安装及环境变量配置&#34;&gt;&lt;a href=&#34;#JDK安装及环境变量配置&#34; class=&#34;headerlink&#34; title=&#34;JDK安装及环境变量配置&#34;&gt;&lt;/a&gt;JDK安装及环境变量配置&lt;/h1&gt;&lt;h4 id=&#34;1-找到相应的JDK版本并下载&#34;&gt;&lt;a href=&#34;#1-找到相应的JDK版本并下载&#34; class=&#34;headerlink&#34; title=&#34;1.找到相应的JDK版本并下载&#34;&gt;&lt;/a&gt;1.找到相应的JDK版本并下载&lt;/h4&gt;&lt;p&gt;   JDK下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamRrZG93bmxvYWQuY29tLzIwMjAvMDUvMTYvamRrJWU0JWI4JThiJWU4JWJkJWJkLw==&#34;&gt;https://www.jdkdownload.com/2020/05/16/jdk%e4%b8%8b%e8%bd%bd/&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-安装过程&#34;&gt;&lt;a href=&#34;#2-安装过程&#34; class=&#34;headerlink&#34; title=&#34;2.安装过程&#34;&gt;&lt;/a&gt;2.安装过程&lt;/h4&gt;&lt;p&gt;选择合适的安装目录（记住这个安装目录，后边配置环境变量要用到），其他步骤一直点下一步即可。&lt;/p&gt;
+&lt;h4 id=&#34;3-环境变量配置&#34;&gt;&lt;a href=&#34;#3-环境变量配置&#34; class=&#34;headerlink&#34; title=&#34;3.环境变量配置&#34;&gt;&lt;/a&gt;3.环境变量配置&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;右击“我的电脑”→属性→高级系统设置→环境变量&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213213569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;环境变量1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213213569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;环境变量1&#34;&gt;   &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;新建环境变量&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213644726.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213644726.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;   &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;编辑 Path 环境变量（双击）&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213857969.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214245990.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;全部点 “确定” 退出这些窗口&lt;/li&gt;
+&lt;li&gt;  编辑Path环境变量（双击）&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213857969.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214245990.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/li&gt;
+&lt;li&gt;全部点“确定”退出这些窗口&lt;h4 id=&#34;4、检查环境是否配置成功&#34;&gt;&lt;a href=&#34;#4、检查环境是否配置成功&#34; class=&#34;headerlink&#34; title=&#34;4、检查环境是否配置成功&#34;&gt;&lt;/a&gt;4、检查环境是否配置成功&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;4-检查环境是否配置成功&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-检查环境是否配置成功&#34;&gt;#&lt;/a&gt; 4、检查环境是否配置成功&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;win+R 打开命令窗口，输入 cmd 后回车打开命令行&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214733513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;在命令行中输入 java -version, 回车若显示 jdk 版本信息则说明安装成功，如下图：&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214936788.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;win+R打开命令窗口，输入cmd后回车打开命令行&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214733513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/li&gt;
+&lt;li&gt;在命令行中输入java -version,回车若显示jdk版本信息则说明安装成功，如下图：&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214936788.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h6 id=&#34;至此环境变量已配置完成可以在您的电脑上编写java程序了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#至此环境变量已配置完成可以在您的电脑上编写java程序了&#34;&gt;#&lt;/a&gt; 至此，环境变量已配置完成，可以在您的电脑上编写 Java 程序了。&lt;/h6&gt;
- ]]></description>
+&lt;h6 id=&#34;至此-环境变量已配置完成，可以在您的电脑上编写Java程序了。&#34;&gt;&lt;a href=&#34;#至此-环境变量已配置完成，可以在您的电脑上编写Java程序了。&#34; class=&#34;headerlink&#34; title=&#34;至此,环境变量已配置完成，可以在您的电脑上编写Java程序了。&#34;&gt;&lt;/a&gt;至此,环境变量已配置完成，可以在您的电脑上编写Java程序了。&lt;/h6&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/15/hello-world/</guid>
@@ -55,15 +46,18 @@
             <link>https://lollipopazhe.github.io/2021/08/15/hello-world/</link>
             <pubDate>Sun, 15 Aug 2021 17:45:41 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo generate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo deploy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
