@@ -11,9 +11,9 @@
     <updated>2021-08-29T11:44:32.000Z</updated>
     <category term="闲谈" />
     <entry>
-        <id>https://lollipopazhe.github.io/2021/08/29/Other/markdown/</id>
+        <id>https://lollipopazhe.github.io/2021/08/29/other/markdown/</id>
         <title>MarkDown文档基本语法</title>
-        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/29/Other/markdown/"/>
+        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/29/other/markdown/"/>
         <content type="html">&lt;h1 id=&#34;MarkDown文档基本语法&#34;&gt;&lt;a href=&#34;#MarkDown文档基本语法&#34; class=&#34;headerlink&#34; title=&#34;MarkDown文档基本语法&#34;&gt;&lt;/a&gt;MarkDown文档基本语法&lt;/h1&gt;&lt;p&gt;@[toc]&lt;/p&gt;
 &lt;h2 id=&#34;一、标题&#34;&gt;&lt;a href=&#34;#一、标题&#34; class=&#34;headerlink&#34; title=&#34;一、标题&#34;&gt;&lt;/a&gt;一、标题&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;“#”表示标题，几个“#”代表几级标题，最多六级：&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;java&#34;&gt;# 一级标题
@@ -141,9 +141,9 @@ ___斜体加粗___
         <updated>2021-08-29T11:44:32.000Z</updated>
     </entry>
     <entry>
-        <id>https://lollipopazhe.github.io/2021/08/17/Java/java01/</id>
+        <id>https://lollipopazhe.github.io/2021/08/17/java/java01/</id>
         <title>Java01-JDK安装及环境变量配置</title>
-        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/17/Java/java01/"/>
+        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/17/java/java01/"/>
         <content type="html">&lt;h1 id=&#34;JDK安装及环境变量配置&#34;&gt;&lt;a href=&#34;#JDK安装及环境变量配置&#34; class=&#34;headerlink&#34; title=&#34;JDK安装及环境变量配置&#34;&gt;&lt;/a&gt;JDK安装及环境变量配置&lt;/h1&gt;&lt;h4 id=&#34;1-找到相应的JDK版本并下载&#34;&gt;&lt;a href=&#34;#1-找到相应的JDK版本并下载&#34; class=&#34;headerlink&#34; title=&#34;1.找到相应的JDK版本并下载&#34;&gt;&lt;/a&gt;1.找到相应的JDK版本并下载&lt;/h4&gt;&lt;p&gt;   JDK下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamRrZG93bmxvYWQuY29tLzIwMjAvMDUvMTYvamRrJWU0JWI4JThiJWU4JWJkJWJkLw==&#34;&gt;https://www.jdkdownload.com/2020/05/16/jdk%e4%b8%8b%e8%bd%bd/&lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&#34;2-安装过程&#34;&gt;&lt;a href=&#34;#2-安装过程&#34; class=&#34;headerlink&#34; title=&#34;2.安装过程&#34;&gt;&lt;/a&gt;2.安装过程&lt;/h4&gt;&lt;p&gt;选择合适的安装目录（记住这个安装目录，后边配置环境变量要用到），其他步骤一直点下一步即可。&lt;/p&gt;
 &lt;h4 id=&#34;3-环境变量配置&#34;&gt;&lt;a href=&#34;#3-环境变量配置&#34; class=&#34;headerlink&#34; title=&#34;3.环境变量配置&#34;&gt;&lt;/a&gt;3.环境变量配置&lt;/h4&gt;&lt;ul&gt;
