@@ -14,142 +14,161 @@
         <lastBuildDate>Sun, 29 Aug 2021 19:44:32 +0800</lastBuildDate>
         <category term="闲谈" />
         <item>
-            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/29/other/markdown/</guid>
+            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/29/Other/markdown/</guid>
             <title>MarkDown文档基本语法</title>
-            <link>https://lollipopazhe.github.io/2021/08/29/other/markdown/</link>
-            <category term="Other" scheme="https://lollipopazhe.github.io/categories/other/" />
+            <link>https://lollipopazhe.github.io/2021/08/29/Other/markdown/</link>
+            <category term="Other" scheme="https://lollipopazhe.github.io/categories/Other/" />
             <category term="Markdown" scheme="https://lollipopazhe.github.io/tags/Markdown/" />
             <pubDate>Sun, 29 Aug 2021 19:44:32 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;markdown文档基本语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#markdown文档基本语法&#34;&gt;#&lt;/a&gt; MarkDown 文档基本语法&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&#34;toc&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;#markdown%E6%96%87%E6%A1%A3%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95&#34;&gt;MarkDown文档基本语法&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%B8%80-%E6%A0%87%E9%A2%98&#34;&gt;一、标题&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%BA%8C-%E5%AD%97%E4%BD%93&#34;&gt;二、 字体&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%B8%89-%E5%88%97%E8%A1%A8&#34;&gt;三、列表&lt;/a&gt;&lt;br /&gt;
-*
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#1%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8&#34;&gt;1.无序列表&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#2%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8&#34;&gt;2.有序列表&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#3%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97&#34;&gt;3.列表嵌套&lt;/a&gt;&lt;/li&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;MarkDown文档基本语法&#34;&gt;&lt;a href=&#34;#MarkDown文档基本语法&#34; class=&#34;headerlink&#34; title=&#34;MarkDown文档基本语法&#34;&gt;&lt;/a&gt;MarkDown文档基本语法&lt;/h1&gt;&lt;p&gt;@[toc]&lt;/p&gt;
+&lt;h2 id=&#34;一、标题&#34;&gt;&lt;a href=&#34;#一、标题&#34; class=&#34;headerlink&#34; title=&#34;一、标题&#34;&gt;&lt;/a&gt;一、标题&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;“#”表示标题，几个“#”代表几级标题，最多六级：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;# 一级标题
+
+## 二级标题
+
+### 三级标题
+
+#### 四级标题
+
+##### 五级标题
+
+###### 六级标题
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214165636751.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;标题效果图&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;二、-字体&#34;&gt;&lt;a href=&#34;#二、-字体&#34; class=&#34;headerlink&#34; title=&#34;二、 字体&#34;&gt;&lt;/a&gt;二、 字体&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;由“*”和“_”来控制字体&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;**粗体**
+__粗体__
+
+*斜体*
+_斜体_
+
+***斜体加粗***
+___斜体加粗___
+
+~~删除线~~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214172259709.png#pic_center&#34; alt=&#34;字体效果图&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三、列表&#34;&gt;&lt;a href=&#34;#三、列表&#34; class=&#34;headerlink&#34; title=&#34;三、列表&#34;&gt;&lt;/a&gt;三、列表&lt;/h2&gt;&lt;h4 id=&#34;1-无序列表&#34;&gt;&lt;a href=&#34;#1-无序列表&#34; class=&#34;headerlink&#34; title=&#34;1.无序列表&#34;&gt;&lt;/a&gt;1.无序列表&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;语法格式：&lt;code&gt;*空格&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;无序列表
+* 第一
+* 第二
+* 第三
+* 第四
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214173533107.png#pic_center&#34; alt=&#34;无序列表&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-有序列表&#34;&gt;&lt;a href=&#34;#2-有序列表&#34; class=&#34;headerlink&#34; title=&#34;2.有序列表&#34;&gt;&lt;/a&gt;2.有序列表&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;语法格式：&lt;code&gt;数字.空格&lt;/code&gt;&lt;br&gt;```java&lt;br&gt;有序列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;第一&lt;/li&gt;
+&lt;li&gt;第二&lt;/li&gt;
+&lt;li&gt;第三&lt;/li&gt;
+&lt;li&gt;第四&lt;br&gt;```&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214174138883.png#pic_center&#34; alt=&#34;有序列表&#34;&gt;&lt;h4 id=&#34;3-列表嵌套&#34;&gt;&lt;a href=&#34;#3-列表嵌套&#34; class=&#34;headerlink&#34; title=&#34;3.列表嵌套&#34;&gt;&lt;/a&gt;3.列表嵌套&lt;/h4&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;列表嵌套
+1. 第一项：
+    - 1.1
+    - 1.2
+    - 1.3
+2. 第二项：
+    - 2.1
+    - 2.2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214191838670.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四、分割线&#34;&gt;&lt;a href=&#34;#四、分割线&#34; class=&#34;headerlink&#34; title=&#34;四、分割线&#34;&gt;&lt;/a&gt;四、分割线&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;语法格式&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;  ---
+  _ _ _
+  ***
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%9B%9B-%E5%88%86%E5%89%B2%E7%BA%BF&#34;&gt;四、分割线&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%BA%94-%E5%BC%95%E7%94%A8&#34;&gt;五、 引用&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%85%AD-%E5%9B%BE%E7%89%87&#34;&gt;六、 图片&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%B8%83-%E8%A1%A8%E6%A0%BC&#34;&gt;七、 表格&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%85%AB-%E4%BB%A3%E7%A0%81%E5%9D%97&#34;&gt;八、 代码块&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%B9%9D-%E8%B6%85%E9%93%BE%E6%8E%A5&#34;&gt;九、 超链接&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%8D%81-%E7%9B%AE%E5%BD%95&#34;&gt;十、 目录&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%8D%81%E4%B8%80-%E5%85%B6%E4%BB%96&#34;&gt;十一、 其他&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;一-标题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-标题&#34;&gt;#&lt;/a&gt; 一、标题&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;“#” 表示标题，几个 “#” 代表几级标题，最多六级：&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 一级标题&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;## 二级标题&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;### 三级标题&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;#### 四级标题&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;##### 五级标题&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;###### 六级标题&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214165636751.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;标题效果图&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;二-字体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-字体&#34;&gt;#&lt;/a&gt; 二、 字体&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;由 “*” 和 “_” 来控制字体&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;粗体&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;__粗体__&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;斜体&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;_斜体_&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;斜体加粗&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;___斜体加粗___&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;删除线&lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214172259709.png#pic_center&#34; alt=&#34;字体效果图&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;三-列表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-列表&#34;&gt;#&lt;/a&gt; 三、列表&lt;/h2&gt;
-&lt;h4 id=&#34;1无序列表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1无序列表&#34;&gt;#&lt;/a&gt; 1. 无序列表&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;语法格式： &lt;code&gt;*空格&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;无序列表&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; 第一&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; 第二&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; 第三&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; 第四&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214173533107.png#pic_center&#34; alt=&#34;无序列表&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;2有序列表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2有序列表&#34;&gt;#&lt;/a&gt; 2. 有序列表&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;语法格式： &lt;code&gt;数字.空格&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;有序列表&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;1.&lt;/span&gt; 第一&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2.&lt;/span&gt; 第二&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;3.&lt;/span&gt; 第三&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;4.&lt;/span&gt; 第四&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214174138883.png#pic_center&#34; alt=&#34;有序列表&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;3列表嵌套&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3列表嵌套&#34;&gt;#&lt;/a&gt; 3. 列表嵌套&lt;/h4&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;列表嵌套&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;1.&lt;/span&gt; 第一项：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1.1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1.2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1.3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2.&lt;/span&gt; 第二项：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2.1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2.2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214191838670.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;四-分割线&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-分割线&#34;&gt;#&lt;/a&gt; 四、分割线&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;语法格式&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    _ _ _&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214180651652.png#pic_center&#34; alt=&#34;分割线&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;五-引用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#五-引用&#34;&gt;#&lt;/a&gt; 五、 引用&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;语法格式： &lt;code&gt;&amp;gt;空格&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; 引用内容&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; 引用内容&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; 引用内容&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; 引用内容&lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214181327621.png#pic_center&#34; alt=&#34;引用&#34; /&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214180651652.png#pic_center&#34; alt=&#34;分割线&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;五、-引用&#34;&gt;&lt;a href=&#34;#五、-引用&#34; class=&#34;headerlink&#34; title=&#34;五、 引用&#34;&gt;&lt;/a&gt;五、 引用&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;语法格式：&lt;code&gt;&amp;gt;空格&lt;/code&gt;&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;&amp;gt; 引用内容1
+  &amp;gt; 引用内容2
+  &amp;gt; 引用内容3
+  &amp;gt;
+  &amp;gt; 引用内容4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214181327621.png#pic_center&#34; alt=&#34;引用&#34;&gt;&lt;/li&gt;
 &lt;li&gt;引用嵌套&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; 引用内容&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; 引用内容&lt;span class=&#34;token number&#34;&gt;1.1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&gt;&lt;/span&gt; 引用内容&lt;span class=&#34;token number&#34;&gt;1.1&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214181533648.png#pic_center&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;六-图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六-图片&#34;&gt;#&lt;/a&gt; 六、 图片&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;语法格式: &lt;code&gt;![图片名称](图片地址路径)&lt;/code&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;    &amp;gt; 引用内容1
+    &amp;gt;&amp;gt; 引用内容1.1
+    &amp;gt;&amp;gt;&amp;gt; 引用内容1.1.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214181533648.png#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;六、-图片&#34;&gt;&lt;a href=&#34;#六、-图片&#34; class=&#34;headerlink&#34; title=&#34;六、 图片&#34;&gt;&lt;/a&gt;六、 图片&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;语法格式:&lt;code&gt;![图片名称](图片地址路径)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;本地图片&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;imgs&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;timg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;png&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;网络图片&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;https&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;ss0&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;bdstatic&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;com&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;70&lt;/span&gt;cFvHSh_Q1YnxGkpoWK1HF6hhy&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;it&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;u&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3863286937&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1191971247&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;fm&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;gp&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0.&lt;/span&gt;jpg&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;七-表格&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#七-表格&#34;&gt;#&lt;/a&gt; 七、 表格&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;语法格式：&lt;br /&gt;
-- 头部&lt;br /&gt;
- &lt;code&gt;|xxx|xxx|xxx|xxx|&lt;/code&gt; &lt;br /&gt;
- &lt;code&gt;|--|--|--|--|&lt;/code&gt; &lt;br /&gt;
-- 内容&lt;br /&gt;
- &lt;code&gt;|xxx|xxx|xxx|xxx|&lt;/code&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;    ![本地图片](imgs/timg.png)
+   
+    ![网络图片](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3863286937,1191971247&amp;amp;fm=26&amp;amp;gp=0.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;七、-表格&#34;&gt;&lt;a href=&#34;#七、-表格&#34; class=&#34;headerlink&#34; title=&#34;七、 表格&#34;&gt;&lt;/a&gt;七、 表格&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;语法格式：&lt;pre&gt;&lt;code&gt;  - 头部 
+  `|xxx|xxx|xxx|xxx|` 
+  `|--|--|--|--|`
+  - 内容
+  `|xxx|xxx|xxx|xxx|`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;姓名&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;年龄&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;性别&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;爱好&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;张三&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;男&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;看电影&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214183926265.png#pic_center&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;八-代码块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#八-代码块&#34;&gt;#&lt;/a&gt; 八、 代码块&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;多行：用 “```” 包裹代码块&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214184551734.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;多行代码块&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;单行或某个单词&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214184814841.png#pic_center&#34; alt=&#34;单行代码块&#34; /&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;    |姓名|年龄|性别|爱好|
+    |--|--|--|--|
+    |张三|20|男|看电影|
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214183926265.png#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;八、-代码块&#34;&gt;&lt;a href=&#34;#八、-代码块&#34; class=&#34;headerlink&#34; title=&#34;八、 代码块&#34;&gt;&lt;/a&gt;八、 代码块&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;多行：用“```”包裹代码块&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214184551734.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;多行代码块&#34;&gt;&lt;/li&gt;
+&lt;li&gt;单行或某个单词&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214184814841.png#pic_center&#34; alt=&#34;单行代码块&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;九-超链接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#九-超链接&#34;&gt;#&lt;/a&gt; 九、 超链接&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;语法格式： &lt;code&gt;[链接名称](链接地址)&lt;/code&gt;&lt;/li&gt;
+&lt;h2 id=&#34;九、-超链接&#34;&gt;&lt;a href=&#34;#九、-超链接&#34; class=&#34;headerlink&#34; title=&#34;九、 超链接&#34;&gt;&lt;/a&gt;九、 超链接&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;语法格式：&lt;code&gt;[链接名称](链接地址)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;百度&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;https&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;www&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;baidu&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;com&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;效果：&lt;br /&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==&#34;&gt;百度&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&#34;十-目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十-目录&#34;&gt;#&lt;/a&gt; 十、 目录&lt;/h2&gt;
-&lt;p&gt;自动生成目录&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;[百度](https://www.baidu.com/)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;效果：&lt;br&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==&#34;&gt;百度&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十、-目录&#34;&gt;&lt;a href=&#34;#十、-目录&#34; class=&#34;headerlink&#34; title=&#34;十、 目录&#34;&gt;&lt;/a&gt;十、 目录&lt;/h2&gt;&lt;p&gt;自动生成目录&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;语法格式： &lt;code&gt;@[toc]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt; 语法格式：&lt;code&gt;@[toc]&lt;/code&gt; &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;十一-其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十一-其他&#34;&gt;#&lt;/a&gt; 十一、 其他&lt;/h2&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;上标 &lt;span class=&#34;token operator&#34;&gt;^&lt;/span&gt;上标&lt;span class=&#34;token operator&#34;&gt;^&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; 下标 &lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;下标&lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; 脚注&lt;span class=&#34;token operator&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;脚注&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;高亮&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214190809568.png#pic_center&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十一、-其他&#34;&gt;&lt;a href=&#34;#十一、-其他&#34; class=&#34;headerlink&#34; title=&#34;十一、 其他&#34;&gt;&lt;/a&gt;十一、 其他&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34;java&#34;&gt; 上标 ^上标^
+ 下标 ~下标~
+ 脚注^[脚注]
+ ==高亮==
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214190809568.png#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/17/java/java01/</guid>
+            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/17/Java/java01/</guid>
             <title>Java01-JDK安装及环境变量配置</title>
-            <link>https://lollipopazhe.github.io/2021/08/17/java/java01/</link>
-            <category term="Java基础" scheme="https://lollipopazhe.github.io/categories/java/" />
+            <link>https://lollipopazhe.github.io/2021/08/17/Java/java01/</link>
+            <category term="Java基础" scheme="https://lollipopazhe.github.io/categories/Java/" />
             <category term="Java" scheme="https://lollipopazhe.github.io/tags/Java/" />
             <pubDate>Tue, 17 Aug 2021 19:26:32 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;jdk安装及环境变量配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jdk安装及环境变量配置&#34;&gt;#&lt;/a&gt; JDK 安装及环境变量配置&lt;/h1&gt;
-&lt;h4 id=&#34;1找到相应的jdk版本并下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1找到相应的jdk版本并下载&#34;&gt;#&lt;/a&gt; 1. 找到相应的 JDK 版本并下载&lt;/h4&gt;
-&lt;p&gt;JDK 下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamRrZG93bmxvYWQuY29tLzIwMjAvMDUvMTYvamRrJWU0JWI4JThiJWU4JWJkJWJkLw==&#34;&gt;https://www.jdkdownload.com/2020/05/16/jdk%e4%b8%8b%e8%bd%bd/&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;2安装过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2安装过程&#34;&gt;#&lt;/a&gt; 2. 安装过程&lt;/h4&gt;
-&lt;p&gt;选择合适的安装目录（记住这个安装目录，后边配置环境变量要用到），其他步骤一直点下一步即可。&lt;/p&gt;
-&lt;h4 id=&#34;3环境变量配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3环境变量配置&#34;&gt;#&lt;/a&gt; 3. 环境变量配置&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;右击 “我的电脑”→属性→高级系统设置→环境变量&lt;/li&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;JDK安装及环境变量配置&#34;&gt;&lt;a href=&#34;#JDK安装及环境变量配置&#34; class=&#34;headerlink&#34; title=&#34;JDK安装及环境变量配置&#34;&gt;&lt;/a&gt;JDK安装及环境变量配置&lt;/h1&gt;&lt;h4 id=&#34;1-找到相应的JDK版本并下载&#34;&gt;&lt;a href=&#34;#1-找到相应的JDK版本并下载&#34; class=&#34;headerlink&#34; title=&#34;1.找到相应的JDK版本并下载&#34;&gt;&lt;/a&gt;1.找到相应的JDK版本并下载&lt;/h4&gt;&lt;p&gt;   JDK下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamRrZG93bmxvYWQuY29tLzIwMjAvMDUvMTYvamRrJWU0JWI4JThiJWU4JWJkJWJkLw==&#34;&gt;https://www.jdkdownload.com/2020/05/16/jdk%e4%b8%8b%e8%bd%bd/&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-安装过程&#34;&gt;&lt;a href=&#34;#2-安装过程&#34; class=&#34;headerlink&#34; title=&#34;2.安装过程&#34;&gt;&lt;/a&gt;2.安装过程&lt;/h4&gt;&lt;p&gt;选择合适的安装目录（记住这个安装目录，后边配置环境变量要用到），其他步骤一直点下一步即可。&lt;/p&gt;
+&lt;h4 id=&#34;3-环境变量配置&#34;&gt;&lt;a href=&#34;#3-环境变量配置&#34; class=&#34;headerlink&#34; title=&#34;3.环境变量配置&#34;&gt;&lt;/a&gt;3.环境变量配置&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;右击“我的电脑”→属性→高级系统设置→环境变量&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213213569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;环境变量1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213213569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;环境变量1&#34;&gt;   &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;新建环境变量&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213644726.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213644726.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;   &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;编辑 Path 环境变量（双击）&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213857969.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214245990.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;全部点 “确定” 退出这些窗口&lt;/li&gt;
+&lt;li&gt;  编辑Path环境变量（双击）&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213857969.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214245990.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/li&gt;
+&lt;li&gt;全部点“确定”退出这些窗口&lt;h4 id=&#34;4、检查环境是否配置成功&#34;&gt;&lt;a href=&#34;#4、检查环境是否配置成功&#34; class=&#34;headerlink&#34; title=&#34;4、检查环境是否配置成功&#34;&gt;&lt;/a&gt;4、检查环境是否配置成功&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;4-检查环境是否配置成功&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-检查环境是否配置成功&#34;&gt;#&lt;/a&gt; 4、检查环境是否配置成功&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;win+R 打开命令窗口，输入 cmd 后回车打开命令行&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214733513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;在命令行中输入 java -version, 回车若显示 jdk 版本信息则说明安装成功，如下图：&lt;br /&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214936788.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;win+R打开命令窗口，输入cmd后回车打开命令行&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214733513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/li&gt;
+&lt;li&gt;在命令行中输入java -version,回车若显示jdk版本信息则说明安装成功，如下图：&lt;br&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214936788.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h6 id=&#34;至此环境变量已配置完成可以在您的电脑上编写java程序了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#至此环境变量已配置完成可以在您的电脑上编写java程序了&#34;&gt;#&lt;/a&gt; 至此，环境变量已配置完成，可以在您的电脑上编写 Java 程序了。&lt;/h6&gt;
- ]]></description>
+&lt;h6 id=&#34;至此-环境变量已配置完成，可以在您的电脑上编写Java程序了。&#34;&gt;&lt;a href=&#34;#至此-环境变量已配置完成，可以在您的电脑上编写Java程序了。&#34; class=&#34;headerlink&#34; title=&#34;至此,环境变量已配置完成，可以在您的电脑上编写Java程序了。&#34;&gt;&lt;/a&gt;至此,环境变量已配置完成，可以在您的电脑上编写Java程序了。&lt;/h6&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/15/hello-world/</guid>
@@ -157,15 +176,18 @@
             <link>https://lollipopazhe.github.io/2021/08/15/hello-world/</link>
             <pubDate>Sun, 15 Aug 2021 17:45:41 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo generate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo deploy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
