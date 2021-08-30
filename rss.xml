@@ -116,6 +116,42 @@
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/17/java01/</guid>
+            <title>Java01-JDK安装及环境变量配置</title>
+            <link>https://lollipopazhe.github.io/2021/08/17/java01/</link>
+            <category term="Java基础" scheme="https://lollipopazhe.github.io/categories/java/" />
+            <category term="Java" scheme="https://lollipopazhe.github.io/tags/Java/" />
+            <pubDate>Tue, 17 Aug 2021 19:26:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;jdk安装及环境变量配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jdk安装及环境变量配置&#34;&gt;#&lt;/a&gt; JDK 安装及环境变量配置&lt;/h1&gt;
+&lt;h4 id=&#34;1找到相应的jdk版本并下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1找到相应的jdk版本并下载&#34;&gt;#&lt;/a&gt; 1. 找到相应的 JDK 版本并下载&lt;/h4&gt;
+&lt;p&gt;JDK 下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamRrZG93bmxvYWQuY29tLzIwMjAvMDUvMTYvamRrJWU0JWI4JThiJWU4JWJkJWJkLw==&#34;&gt;https://www.jdkdownload.com/2020/05/16/jdk%e4%b8%8b%e8%bd%bd/&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2安装过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2安装过程&#34;&gt;#&lt;/a&gt; 2. 安装过程&lt;/h4&gt;
+&lt;p&gt;选择合适的安装目录（记住这个安装目录，后边配置环境变量要用到），其他步骤一直点下一步即可。&lt;/p&gt;
+&lt;h4 id=&#34;3环境变量配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3环境变量配置&#34;&gt;#&lt;/a&gt; 3. 环境变量配置&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;右击 “我的电脑”→属性→高级系统设置→环境变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213213569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;环境变量1&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新建环境变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213644726.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编辑 Path 环境变量（双击）&lt;br /&gt;
+&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214213857969.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214245990.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;全部点 “确定” 退出这些窗口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-检查环境是否配置成功&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-检查环境是否配置成功&#34;&gt;#&lt;/a&gt; 4、检查环境是否配置成功&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;win+R 打开命令窗口，输入 cmd 后回车打开命令行&lt;br /&gt;
+&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214733513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;在命令行中输入 java -version, 回车若显示 jdk 版本信息则说明安装成功，如下图：&lt;br /&gt;
+&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20201214214936788.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE1MjIyNA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;至此环境变量已配置完成可以在您的电脑上编写java程序了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#至此环境变量已配置完成可以在您的电脑上编写java程序了&#34;&gt;#&lt;/a&gt; 至此，环境变量已配置完成，可以在您的电脑上编写 Java 程序了。&lt;/h6&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/17/java/java01/</guid>
             <title>Java01-JDK安装及环境变量配置</title>
             <link>https://lollipopazhe.github.io/2021/08/17/java/java01/</link>
