@@ -14,6 +14,26 @@
         <lastBuildDate>Mon, 30 Aug 2021 19:26:32 +0800</lastBuildDate>
         <category term="闲谈" />
         <item>
+            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/30/computer-science/network/chapter01/</guid>
+            <title>Chapter01-概述</title>
+            <link>https://lollipopazhe.github.io/2021/08/30/computer-science/network/chapter01/</link>
+            <category term="计算机科学与技术" scheme="https://lollipopazhe.github.io/categories/computer-science/" />
+            <category term="计算机网络" scheme="https://lollipopazhe.github.io/categories/computer-science/network/" />
+            <category term="计算机网络" scheme="https://lollipopazhe.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" />
+            <pubDate>Mon, 30 Aug 2021 19:26:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;chapter01-计算机网络概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chapter01-计算机网络概述&#34;&gt;#&lt;/a&gt; Chapter01 - 计算机网络概述&lt;/h1&gt;
+&lt;h2 id=&#34;11-计算机网络在信息时代的作用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11-计算机网络在信息时代的作用&#34;&gt;#&lt;/a&gt; 1.1 计算机网络在信息时代的作用&lt;/h2&gt;
+&lt;h2 id=&#34;12-互联网概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12-互联网概述&#34;&gt;#&lt;/a&gt; 1.2 互联网概述&lt;/h2&gt;
+&lt;h3 id=&#34;121-网络的网络&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#121-网络的网络&#34;&gt;#&lt;/a&gt; 1.2.1 网络的网络&lt;/h3&gt;
+&lt;h3 id=&#34;122-互联网基础结构发展的三个阶段&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#122-互联网基础结构发展的三个阶段&#34;&gt;#&lt;/a&gt; 1.2.2 互联网基础结构发展的三个阶段&lt;/h3&gt;
+&lt;h3 id=&#34;123-互联网的标准化工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#123-互联网的标准化工作&#34;&gt;#&lt;/a&gt; 1.2.3 互联网的标准化工作&lt;/h3&gt;
+&lt;h2 id=&#34;13-互联网的组成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#13-互联网的组成&#34;&gt;#&lt;/a&gt; 1.3 互联网的组成&lt;/h2&gt;
+&lt;h3 id=&#34;131-互联网的边缘部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#131-互联网的边缘部分&#34;&gt;#&lt;/a&gt; 1.3.1 互联网的边缘部分&lt;/h3&gt;
+&lt;h3 id=&#34;132-互联网的核心部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#132-互联网的核心部分&#34;&gt;#&lt;/a&gt; 1.3.2 互联网的核心部分&lt;/h3&gt;
+&lt;h2 id=&#34;14-计算机网络在我国的发展&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#14-计算机网络在我国的发展&#34;&gt;#&lt;/a&gt; 1.4 计算机网络在我国的发展&lt;/h2&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/30/computer-science/multi-media/chapter01/</guid>
             <title>Chapter01-概述</title>
             <link>https://lollipopazhe.github.io/2021/08/30/computer-science/multi-media/chapter01/</link>
@@ -21,7 +41,7 @@
             <category term="多媒体技术" scheme="https://lollipopazhe.github.io/categories/computer-science/multi-media/" />
             <category term="多媒体" scheme="https://lollipopazhe.github.io/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/" />
             <pubDate>Mon, 30 Aug 2021 19:26:32 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;chapter01-概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chapter01-概述&#34;&gt;#&lt;/a&gt; Chapter01 - 概述&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;chapter01-多媒体概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chapter01-多媒体概述&#34;&gt;#&lt;/a&gt; Chapter01 - 多媒体概述&lt;/h1&gt;
 &lt;h2 id=&#34;11-多媒体的基本概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11-多媒体的基本概念&#34;&gt;#&lt;/a&gt; 1.1 多媒体的基本概念&lt;/h2&gt;
 &lt;h3 id=&#34;111-媒体与多媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#111-媒体与多媒体&#34;&gt;#&lt;/a&gt; 1.1.1 媒体与多媒体&lt;/h3&gt;
 &lt;h4 id=&#34;什么是媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是媒体&#34;&gt;#&lt;/a&gt; 什么是媒体&lt;/h4&gt;
@@ -73,35 +93,21 @@
 &lt;ul&gt;
 &lt;li&gt;新媒体&lt;/li&gt;
 &lt;li&gt;自媒体&lt;/li&gt;
-&lt;li&gt;融媒体&lt;/li&gt;
+&lt;li&gt;融媒体（RCS）&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;12-多媒体系统的组成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12-多媒体系统的组成&#34;&gt;#&lt;/a&gt; 1.2 多媒体系统的组成&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;硬件系统&lt;/li&gt;
+&lt;li&gt;软件系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;13-多媒体数据压缩技术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#13-多媒体数据压缩技术&#34;&gt;#&lt;/a&gt; 1.3 多媒体数据压缩技术&lt;/h2&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/30/computer-science/network/chapter01/</guid>
-            <title>Chapter01-概述</title>
-            <link>https://lollipopazhe.github.io/2021/08/30/computer-science/network/chapter01/</link>
-            <category term="计算机科学与技术" scheme="https://lollipopazhe.github.io/categories/computer-science/" />
-            <category term="计算机网络" scheme="https://lollipopazhe.github.io/categories/computer-science/network/" />
-            <category term="计算机网络" scheme="https://lollipopazhe.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" />
-            <pubDate>Mon, 30 Aug 2021 19:26:32 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;chapter01-概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chapter01-概述&#34;&gt;#&lt;/a&gt; Chapter01 - 概述&lt;/h1&gt;
-&lt;h2 id=&#34;11-计算机网络在信息时代的作用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11-计算机网络在信息时代的作用&#34;&gt;#&lt;/a&gt; 1.1 计算机网络在信息时代的作用&lt;/h2&gt;
-&lt;h2 id=&#34;12-互联网概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12-互联网概述&#34;&gt;#&lt;/a&gt; 1.2 互联网概述&lt;/h2&gt;
-&lt;h3 id=&#34;121-网络的网络&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#121-网络的网络&#34;&gt;#&lt;/a&gt; 1.2.1 网络的网络&lt;/h3&gt;
-&lt;h3 id=&#34;122-互联网基础结构发展的三个阶段&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#122-互联网基础结构发展的三个阶段&#34;&gt;#&lt;/a&gt; 1.2.2 互联网基础结构发展的三个阶段&lt;/h3&gt;
-&lt;h3 id=&#34;123-互联网的标准化工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#123-互联网的标准化工作&#34;&gt;#&lt;/a&gt; 1.2.3 互联网的标准化工作&lt;/h3&gt;
-&lt;h2 id=&#34;13-互联网的组成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#13-互联网的组成&#34;&gt;#&lt;/a&gt; 1.3 互联网的组成&lt;/h2&gt;
-&lt;h3 id=&#34;131-互联网的边缘部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#131-互联网的边缘部分&#34;&gt;#&lt;/a&gt; 1.3.1 互联网的边缘部分&lt;/h3&gt;
-&lt;h3 id=&#34;132-互联网的核心部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#132-互联网的核心部分&#34;&gt;#&lt;/a&gt; 1.3.2 互联网的核心部分&lt;/h3&gt;
-&lt;h2 id=&#34;14-计算机网络在我国的发展&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#14-计算机网络在我国的发展&#34;&gt;#&lt;/a&gt; 1.4 计算机网络在我国的发展&lt;/h2&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/29/other/markdown/</guid>
+            <guid isPermalink="true">https://lollipopazhe.github.io/2021/08/29/others/markdown/</guid>
             <title>MarkDown文档基本语法</title>
-            <link>https://lollipopazhe.github.io/2021/08/29/other/markdown/</link>
-            <category term="Other" scheme="https://lollipopazhe.github.io/categories/other/" />
+            <link>https://lollipopazhe.github.io/2021/08/29/others/markdown/</link>
+            <category term="Other" scheme="https://lollipopazhe.github.io/categories/Other/" />
             <category term="Markdown" scheme="https://lollipopazhe.github.io/tags/Markdown/" />
             <pubDate>Sun, 29 Aug 2021 19:44:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;markdown文档基本语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#markdown文档基本语法&#34;&gt;#&lt;/a&gt; MarkDown 文档基本语法&lt;/h1&gt;
