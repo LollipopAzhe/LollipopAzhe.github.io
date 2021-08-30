@@ -8,8 +8,92 @@
     <author>
       <name>Azhe</name>
     </author>
-    <updated>2021-08-29T11:44:32.000Z</updated>
+    <updated>2021-08-30T11:26:32.000Z</updated>
     <category term="闲谈" />
+    <entry>
+        <id>https://lollipopazhe.github.io/2021/08/30/computer-science/network/chapter01/</id>
+        <title>Chapter01-概述</title>
+        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/30/computer-science/network/chapter01/"/>
+        <content type="html">&lt;h1 id=&#34;chapter01-概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chapter01-概述&#34;&gt;#&lt;/a&gt; Chapter01 - 概述&lt;/h1&gt;
+&lt;h2 id=&#34;11-计算机网络在信息时代的作用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11-计算机网络在信息时代的作用&#34;&gt;#&lt;/a&gt; 1.1 计算机网络在信息时代的作用&lt;/h2&gt;
+&lt;h2 id=&#34;12-互联网概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12-互联网概述&#34;&gt;#&lt;/a&gt; 1.2 互联网概述&lt;/h2&gt;
+&lt;h3 id=&#34;121-网络的网络&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#121-网络的网络&#34;&gt;#&lt;/a&gt; 1.2.1 网络的网络&lt;/h3&gt;
+&lt;h3 id=&#34;122-互联网基础结构发展的三个阶段&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#122-互联网基础结构发展的三个阶段&#34;&gt;#&lt;/a&gt; 1.2.2 互联网基础结构发展的三个阶段&lt;/h3&gt;
+&lt;h3 id=&#34;123-互联网的标准化工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#123-互联网的标准化工作&#34;&gt;#&lt;/a&gt; 1.2.3 互联网的标准化工作&lt;/h3&gt;
+&lt;h2 id=&#34;13-互联网的组成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#13-互联网的组成&#34;&gt;#&lt;/a&gt; 1.3 互联网的组成&lt;/h2&gt;
+&lt;h3 id=&#34;131-互联网的边缘部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#131-互联网的边缘部分&#34;&gt;#&lt;/a&gt; 1.3.1 互联网的边缘部分&lt;/h3&gt;
+&lt;h3 id=&#34;132-互联网的核心部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#132-互联网的核心部分&#34;&gt;#&lt;/a&gt; 1.3.2 互联网的核心部分&lt;/h3&gt;
+&lt;h2 id=&#34;14-计算机网络在我国的发展&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#14-计算机网络在我国的发展&#34;&gt;#&lt;/a&gt; 1.4 计算机网络在我国的发展&lt;/h2&gt;
+</content>
+        <category term="计算机科学与技术" scheme="https://lollipopazhe.github.io/categories/computer-science/" />
+        <category term="计算机网络" scheme="https://lollipopazhe.github.io/categories/computer-science/network/" />
+        <category term="计算机网络" scheme="https://lollipopazhe.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" />
+        <updated>2021-08-30T11:26:32.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://lollipopazhe.github.io/2021/08/30/computer-science/multi-media/chapter01/</id>
+        <title>Chapter01-概述</title>
+        <link rel="alternate" href="https://lollipopazhe.github.io/2021/08/30/computer-science/multi-media/chapter01/"/>
+        <content type="html">&lt;h1 id=&#34;chapter01-概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chapter01-概述&#34;&gt;#&lt;/a&gt; Chapter01 - 概述&lt;/h1&gt;
+&lt;h2 id=&#34;11-多媒体的基本概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11-多媒体的基本概念&#34;&gt;#&lt;/a&gt; 1.1 多媒体的基本概念&lt;/h2&gt;
+&lt;h3 id=&#34;111-媒体与多媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#111-媒体与多媒体&#34;&gt;#&lt;/a&gt; 1.1.1 媒体与多媒体&lt;/h3&gt;
+&lt;h4 id=&#34;什么是媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是媒体&#34;&gt;#&lt;/a&gt; 什么是媒体&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;媒质：存储信息的实体&lt;/li&gt;
+&lt;li&gt;媒介：传递信息的载体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;媒体的五种类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#媒体的五种类型&#34;&gt;#&lt;/a&gt; 媒体的五种类型&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;感觉媒体&lt;/li&gt;
+&lt;li&gt;表示媒体&lt;/li&gt;
+&lt;li&gt;显示媒体&lt;/li&gt;
+&lt;li&gt;存储媒体&lt;/li&gt;
+&lt;li&gt;传输媒体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;112-常用的媒体元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#112-常用的媒体元素&#34;&gt;#&lt;/a&gt; 1.1.2 常用的媒体元素&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;文本&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;图形&lt;/code&gt; （矢量图）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;图像&lt;/code&gt; （位图）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;动画&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;二维动画&lt;/li&gt;
+&lt;li&gt;三维动画&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;音频&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;波形声音&lt;/li&gt;
+&lt;li&gt;语音&lt;/li&gt;
+&lt;li&gt;音乐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;113-多媒体技术及其特点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#113-多媒体技术及其特点&#34;&gt;#&lt;/a&gt; 1.1.3 多媒体技术及其特点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;概念&lt;/code&gt; ：采用计算机技术把文字、声音、图形、图像和动画等多媒体综合一体化，使之建立起逻辑连接，并能对它们获取、压缩编码、编辑、处理、存储和展示。&lt;/li&gt;
+&lt;li&gt;四个主要特性
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;多维性&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;集成性&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;交互性&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;数字性&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;114-新媒体-自媒体与融媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#114-新媒体-自媒体与融媒体&#34;&gt;#&lt;/a&gt; 1.1.4 新媒体、自媒体与融媒体&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;新媒体&lt;/li&gt;
+&lt;li&gt;自媒体&lt;/li&gt;
+&lt;li&gt;融媒体&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="计算机科学与技术" scheme="https://lollipopazhe.github.io/categories/computer-science/" />
+        <category term="多媒体技术" scheme="https://lollipopazhe.github.io/categories/computer-science/multi-media/" />
+        <category term="多媒体" scheme="https://lollipopazhe.github.io/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/" />
+        <updated>2021-08-30T11:26:32.000Z</updated>
+    </entry>
     <entry>
         <id>https://lollipopazhe.github.io/2021/08/29/other/markdown/</id>
         <title>MarkDown文档基本语法</title>
