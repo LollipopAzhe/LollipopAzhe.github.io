@@ -2679,6 +2679,250 @@ switch(表达式)
         <updated>2021-10-12T11:26:32.000Z</updated>
     </entry>
     <entry>
+        <id>https://lollipopazhe.github.io/2021/10/02/computer-science/web/chapter02/</id>
+        <title>Chapter02-CSS样式属性</title>
+        <link rel="alternate" href="https://lollipopazhe.github.io/2021/10/02/computer-science/web/chapter02/"/>
+        <content type="html">&lt;p&gt;&lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;  标签：无语义的行标签，便于添加属性一添加样式。&lt;/p&gt;
+&lt;h3 id=&#34;字体样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#字体样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;字体样式&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;属性名&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;th&gt;属性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;font-family&lt;/td&gt;
+&lt;td&gt;设置字体类型&lt;/td&gt;
+&lt;td&gt;如：&amp;quot;Times New Roman&amp;quot;, &amp;quot;Times&amp;quot;  &amp;amp; 宋体&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;font-size&lt;/td&gt;
+&lt;td&gt;设置字体大小&lt;/td&gt;
+&lt;td&gt;单位：px,em 等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;font-style&lt;/td&gt;
+&lt;td&gt;设置字体风格&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;normal&lt;/code&gt; : 默认 &amp;lt;br&amp;gt; &lt;code&gt;italic&lt;/code&gt; : 斜体字 &amp;lt;br&amp;gt; &lt;code&gt;oblique&lt;/code&gt; : 倾斜&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;font-weight&lt;/td&gt;
+&lt;td&gt;设置字体的粗细&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;normal&lt;/code&gt; : 默认 &amp;lt;br&amp;gt; &lt;code&gt;bold&lt;/code&gt; : 加粗 &amp;lt;br&amp;gt; &lt;code&gt;lighter&lt;/code&gt; : 变细&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;font&lt;/td&gt;
+&lt;td&gt;在一个声明中设置所有字体属性&lt;/td&gt;
+&lt;td&gt;顺序： &lt;code&gt;font-style&lt;/code&gt; , &lt;code&gt;font-weight&lt;/code&gt; , &lt;code&gt;font-size&lt;/code&gt; , &lt;code&gt;font-family&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;word-wrap&lt;/td&gt;
+&lt;td colspan=&#34;2&#34;&gt;用于实现长单词和 URL 地址的自动换行。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;文本样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;文本样式&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;属性名&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;th&gt;属性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;color&lt;/td&gt;
+&lt;td&gt;设置文本颜色&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;RGB&lt;/code&gt; : 十六进制方法表示颜色：前两位表示红色分量，中间两位表示绿色分量，最后两位表示蓝色分量 &amp;lt;br&amp;gt;rgb (r,g,b): 正整数的取值为 0～255&amp;lt;br&amp;gt; &lt;code&gt;RGBA&lt;/code&gt; : 在 RGB 基础上增加了控制 &lt;code&gt;alpha&lt;/code&gt;  透明度的参数，其中这个透明通道值为 0～1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;text-align&lt;/td&gt;
+&lt;td&gt;设置元素水平对齐方式&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;left&lt;/code&gt; : 左对齐 &amp;lt;br&amp;gt; &lt;code&gt;right&lt;/code&gt; : 右对齐 &amp;lt;br&amp;gt; &lt;code&gt;center&lt;/code&gt; : 居中 &amp;lt;br&amp;gt; &lt;code&gt;justify&lt;/code&gt; : 两端对齐 &amp;lt;br&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;text-indent&lt;/td&gt;
+&lt;td&gt;设置首行文本的缩进&lt;/td&gt;
+&lt;td&gt;单位：em&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line-height&lt;/td&gt;
+&lt;td&gt;设置文本的行高&lt;/td&gt;
+&lt;td&gt;2em&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;text-decoration&lt;/td&gt;
+&lt;td&gt;设置文本的装饰&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;none&lt;/code&gt; : 默认值 &amp;lt;br&amp;gt; &lt;code&gt;underline&lt;/code&gt; : 下划线 &amp;lt;br&amp;gt; &lt;code&gt;overline&lt;/code&gt; : 上划线 &amp;lt;br&amp;gt; &lt;code&gt;line-through&lt;/code&gt; : 删除线 &amp;lt;br&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;text-shadow&lt;/td&gt;
+&lt;td&gt;文本阴影&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;color&lt;/code&gt; : 阴影颜色 &amp;lt;br&amp;gt; &lt;code&gt;x-offset&lt;/code&gt; :x 轴位移 &amp;lt;br&amp;gt; &lt;code&gt;y-offset&lt;/code&gt; :y 轴位移 &amp;lt;br&amp;gt; &lt;code&gt;blur-radius&lt;/code&gt; : 阴影模糊范围 &amp;lt;br&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;letter-spacing&lt;/td&gt;
+&lt;td&gt;定义字间距，字符与字符间&lt;/td&gt;
+&lt;td&gt;默认 normal, 允许为负&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;word-spacing&lt;/td&gt;
+&lt;td&gt;定义英文单词之间的间距，中文无效&lt;/td&gt;
+&lt;td&gt;默认 normal, 允许为负&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;text-transform&lt;/td&gt;
+&lt;td&gt;控制英文字母的大小写&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;none&lt;/code&gt; : 不转换，默认 &amp;lt;br&amp;gt; &lt;code&gt;capitalize&lt;/code&gt; : 首字母大写 &amp;lt;br&amp;gt; &lt;code&gt;uppercase&lt;/code&gt; : 全部字符转换为大写 &amp;lt;br&amp;gt; &lt;code&gt;lowercase&lt;/code&gt; : 全部字符转换为小写 &amp;lt;br&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;white-space&lt;/td&gt;
+&lt;td&gt;设置空白符的处理方式&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;normal&lt;/code&gt; : 文本中的空格、空行无效，满行（到达区域边界）后自动换行 &amp;lt;br&amp;gt; &lt;code&gt;pre&lt;/code&gt; : 预格式化，按文档的书写格式保留空格、空行原样显示 &amp;lt;br&amp;gt; &lt;code&gt;nowrap&lt;/code&gt; : 空格空行无效，强制文本不能换行，除非遇到换行标签 &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; 。内容超出元素的边界也不换行，若超出浏览器页面则会自动增加滚动条 &amp;lt;br&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;css3新增文本外观属性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#css3新增文本外观属性&#34;&gt;#&lt;/a&gt; CSS3 新增文本外观属性&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;text-shadow&lt;/code&gt; : 为文本添加阴影效果，可加多个，用逗号隔开
+&lt;ul&gt;
+&lt;li&gt;h-shadow: 垂直偏移量&lt;/li&gt;
+&lt;li&gt;v-shadow: 水平偏移量&lt;/li&gt;
+&lt;li&gt;blur: 阴影扩展半径&lt;/li&gt;
+&lt;li&gt;color: 阴影颜色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;text-overflow&lt;/code&gt; : 用于标示对象内溢出的文本
+&lt;ul&gt;
+&lt;li&gt;clip: 修剪溢出文本，不显示省略标签 “…”&lt;/li&gt;
+&lt;li&gt;ellipsis: 用省略标签 “…” 标示被修剪文本，省略标签插入的位置是最后一个字符。
+&lt;ul&gt;
+&lt;li&gt;定义包含文本的对象宽度&lt;/li&gt;
+&lt;li&gt;应用 &lt;code&gt;white-space:nowrap;&lt;/code&gt; ”` 样式强制文本不能换行。&lt;/li&gt;
+&lt;li&gt;应用 &lt;code&gt;overflow:hidden;&lt;/code&gt;  样式隐藏溢出文本。&lt;/li&gt;
+&lt;li&gt;应用 &lt;code&gt;text-overflow:ellipsis;&lt;/code&gt;  样式显示省略标签。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;超链接伪类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#超链接伪类&#34;&gt;#&lt;/a&gt; &lt;strong&gt;超链接伪类&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;| 伪类名 | 含义 |&lt;br /&gt;
+|--|--|&lt;br /&gt;
+|link | 未单击访问时超链接样式 |&lt;br /&gt;
+|visited | 单机访问后超链接样式 |&lt;br /&gt;
+|hover | 鼠标悬浮其上时的超链接样式 |&lt;br /&gt;
+|active | 鼠标单击未释放的超链接样式 |&lt;br /&gt;
+ 设置伪类的顺序：link&amp;gt;visit&amp;gt;hover&amp;gt;active&lt;/p&gt;
+&lt;h3 id=&#34;列表样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#列表样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;列表样式&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;code&gt;list-style-type&lt;/code&gt;&lt;/th&gt;
+&lt;th&gt;none: 无标记符号 &amp;lt;br&amp;gt;disc: 实心圆，默认类型 &amp;lt; br&amp;gt;circle: 空心圆 &amp;lt; br&amp;gt;square: 实心正方形 &amp;lt; br&amp;gt;decimal: 数字&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;背景样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;背景样式&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;属性名&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;th&gt;使用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;background-color&lt;/td&gt;
+&lt;td&gt;设置背景颜色&lt;/td&gt;
+&lt;td&gt;十六进制 - 如：&amp;quot;#ff0000&amp;quot;&amp;lt;br&amp;gt;RGB - 如：&amp;quot;rgb (255,0,0)&amp;quot;&amp;lt;br &amp;gt; 颜色名称 - 如：&amp;quot;red&amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;background-image&lt;/td&gt;
+&lt;td&gt;设置背景图片&lt;/td&gt;
+&lt;td&gt;url (图片路径)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;background-repeat&lt;/td&gt;
+&lt;td&gt;设置背景图片的平铺方式&lt;/td&gt;
+&lt;td&gt;repeat: 向水平和垂直方向平铺 &amp;lt;br&amp;gt;repeat-x: 水平平铺 &amp;lt; br&amp;gt;repeat-y: 垂直平铺 &amp;lt; br&amp;gt;no-repeat: 不平铺&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;background-position&lt;/td&gt;
+&lt;td&gt;设置背景图片的位置&lt;/td&gt;
+&lt;td&gt;X  Y:X 表示水平位置，Y 表示垂直位置 &amp;lt;br&amp;gt;X%  Y%：用百分比控制在水平和垂直方向的位置 &amp;lt; br &amp;gt; 关键字：水平方向：left,center,right; 垂直方向：top,center,bottom&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;background-size&lt;/td&gt;
+&lt;td&gt;设置背景图片的大小&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;background-attachment&lt;/td&gt;
+&lt;td&gt;背景图像是否固定或者随着页面的其余部分滚动&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;auto&lt;/code&gt; : 默认值，维持原样 &amp;lt;br&amp;gt; &lt;code&gt;percentage&lt;/code&gt; : 相对于元素宽度来计算 &amp;lt;br&amp;gt; &lt;code&gt;cover&lt;/code&gt; : 放大背景图片填充整个元素 &amp;lt;br&amp;gt; &lt;code&gt;contain&lt;/code&gt; : 让背景图片保持本身的宽高比例，将背景图片缩放到宽度或者高度正好适应所定义背景的区域&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;简写背景样式：`background` 当使用简写属性时，属性值的顺序为：:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;线性渐变&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性渐变&#34;&gt;#&lt;/a&gt; 线性渐变&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;线性渐变：颜色沿着一条直线过渡：从左到右、从右到左、从上到下等&lt;br /&gt;
+ css3 渐变兼容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IE:  &lt;code&gt;-ms-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Chrome: &lt;code&gt;-webkit&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Safari: &lt;code&gt;-webkit&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Opera: &lt;code&gt;-o-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Firefox: &lt;code&gt;-moz-&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;举例：-webkit-linear-gradient ( position,color1，color2,...)
+posion为渐变方向
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;引用样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用样式&#34;&gt;#&lt;/a&gt; 引用样式&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;行内样式表&lt;br /&gt;
+使用  &lt;code&gt;style&lt;/code&gt;  属性定义在标签上&lt;/li&gt;
+&lt;li&gt;内部样式表&lt;br /&gt;
+使用  &lt;code&gt;style&lt;/code&gt;  标签定义在当前 HTML 页面内部，一般在 &lt;code&gt;head&lt;/code&gt;  标签内&lt;/li&gt;
+&lt;li&gt;外部样式表&lt;br /&gt;
+将样式定义在外部  &lt;code&gt;*.css&lt;/code&gt;  文件中，通过  &lt;code&gt;link&lt;/code&gt;  标签或者  &lt;code&gt;@import &lt;/code&gt; 指令导入本页面。&lt;br /&gt;
+链接式与导入式的区别:&lt;br /&gt;
+- link 方式，导入时会停止 HTML 页面解析，直到 css 文件导入之后，才继续解析；&lt;br /&gt;
+-    import 方式，运行到 import 指令时，页面会继续解析 (即：显示)；css 文件异步加载，直到加载后才会显示出样式效果。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;样式的优先级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#样式的优先级&#34;&gt;#&lt;/a&gt; 样式的优先级&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;分别在不同位置 (外部、内部、行内) 定义的同名的样式 (比如：标签、类样式名称相同)，遵从 “就近原则”&lt;/li&gt;
+&lt;li&gt;名称不同，但重复选中的标签的样式，效果遵循 “特殊者有限原则”(id&amp;gt;class &amp;gt; 标签 &amp;gt;*); 选择器优于书写位置。&lt;/li&gt;
+&lt;li&gt;如果定义了 2 个类标签，其中包含相同的样式，但值不同。比如：定义类  &lt;code&gt;.red&amp;#123;color:red&amp;#125; .green&amp;#123;color:green&amp;#125;。&lt;/code&gt; &lt;br /&gt;
+如果这两个类都作用于同一个标签上，比如： &lt;code&gt;&amp;lt;p class=&amp;quot;green red&amp;quot; &amp;gt;xxx&amp;lt;/p&amp;gt;&lt;/code&gt; &lt;br /&gt;
+ 那么按照书写时的顺序 (并非引用时的顺序)，后者优先。如上则颜色为 green。&lt;/li&gt;
+&lt;li&gt;更复杂的情况，可以通过计算标签被不同方式选中的次数来判断优先级。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="计算机科学与技术" scheme="https://lollipopazhe.github.io/categories/computer-science/" />
+        <category term="Web前端技术" scheme="https://lollipopazhe.github.io/categories/computer-science/Web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/" />
+        <category term="Web" scheme="https://lollipopazhe.github.io/tags/Web/" />
+        <category term="前端" scheme="https://lollipopazhe.github.io/tags/%E5%89%8D%E7%AB%AF/" />
+        <category term="CSS" scheme="https://lollipopazhe.github.io/tags/CSS/" />
+        <updated>2021-10-02T04:26:32.000Z</updated>
+    </entry>
+    <entry>
         <id>https://lollipopazhe.github.io/2021/10/02/computer-science/web/chapter03/</id>
         <title>Chapter03-CSS选择器</title>
         <link rel="alternate" href="https://lollipopazhe.github.io/2021/10/02/computer-science/web/chapter03/"/>
@@ -3021,250 +3265,6 @@ switch(表达式)
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content>
-        <category term="计算机科学与技术" scheme="https://lollipopazhe.github.io/categories/computer-science/" />
-        <category term="Web前端技术" scheme="https://lollipopazhe.github.io/categories/computer-science/Web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/" />
-        <category term="Web" scheme="https://lollipopazhe.github.io/tags/Web/" />
-        <category term="前端" scheme="https://lollipopazhe.github.io/tags/%E5%89%8D%E7%AB%AF/" />
-        <category term="CSS" scheme="https://lollipopazhe.github.io/tags/CSS/" />
-        <updated>2021-10-02T04:26:32.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://lollipopazhe.github.io/2021/10/02/computer-science/web/chapter02/</id>
-        <title>Chapter02-CSS样式属性</title>
-        <link rel="alternate" href="https://lollipopazhe.github.io/2021/10/02/computer-science/web/chapter02/"/>
-        <content type="html">&lt;p&gt;&lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;  标签：无语义的行标签，便于添加属性一添加样式。&lt;/p&gt;
-&lt;h3 id=&#34;字体样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#字体样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;字体样式&lt;/strong&gt;&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;属性名&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;th&gt;属性&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;font-family&lt;/td&gt;
-&lt;td&gt;设置字体类型&lt;/td&gt;
-&lt;td&gt;如：&amp;quot;Times New Roman&amp;quot;, &amp;quot;Times&amp;quot;  &amp;amp; 宋体&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;font-size&lt;/td&gt;
-&lt;td&gt;设置字体大小&lt;/td&gt;
-&lt;td&gt;单位：px,em 等&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;font-style&lt;/td&gt;
-&lt;td&gt;设置字体风格&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;normal&lt;/code&gt; : 默认 &amp;lt;br&amp;gt; &lt;code&gt;italic&lt;/code&gt; : 斜体字 &amp;lt;br&amp;gt; &lt;code&gt;oblique&lt;/code&gt; : 倾斜&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;font-weight&lt;/td&gt;
-&lt;td&gt;设置字体的粗细&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;normal&lt;/code&gt; : 默认 &amp;lt;br&amp;gt; &lt;code&gt;bold&lt;/code&gt; : 加粗 &amp;lt;br&amp;gt; &lt;code&gt;lighter&lt;/code&gt; : 变细&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;font&lt;/td&gt;
-&lt;td&gt;在一个声明中设置所有字体属性&lt;/td&gt;
-&lt;td&gt;顺序： &lt;code&gt;font-style&lt;/code&gt; , &lt;code&gt;font-weight&lt;/code&gt; , &lt;code&gt;font-size&lt;/code&gt; , &lt;code&gt;font-family&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;word-wrap&lt;/td&gt;
-&lt;td colspan=&#34;2&#34;&gt;用于实现长单词和 URL 地址的自动换行。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;文本样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;文本样式&lt;/strong&gt;&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;属性名&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;th&gt;属性&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;color&lt;/td&gt;
-&lt;td&gt;设置文本颜色&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;RGB&lt;/code&gt; : 十六进制方法表示颜色：前两位表示红色分量，中间两位表示绿色分量，最后两位表示蓝色分量 &amp;lt;br&amp;gt;rgb (r,g,b): 正整数的取值为 0～255&amp;lt;br&amp;gt; &lt;code&gt;RGBA&lt;/code&gt; : 在 RGB 基础上增加了控制 &lt;code&gt;alpha&lt;/code&gt;  透明度的参数，其中这个透明通道值为 0～1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;text-align&lt;/td&gt;
-&lt;td&gt;设置元素水平对齐方式&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;left&lt;/code&gt; : 左对齐 &amp;lt;br&amp;gt; &lt;code&gt;right&lt;/code&gt; : 右对齐 &amp;lt;br&amp;gt; &lt;code&gt;center&lt;/code&gt; : 居中 &amp;lt;br&amp;gt; &lt;code&gt;justify&lt;/code&gt; : 两端对齐 &amp;lt;br&amp;gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;text-indent&lt;/td&gt;
-&lt;td&gt;设置首行文本的缩进&lt;/td&gt;
-&lt;td&gt;单位：em&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;line-height&lt;/td&gt;
-&lt;td&gt;设置文本的行高&lt;/td&gt;
-&lt;td&gt;2em&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;text-decoration&lt;/td&gt;
-&lt;td&gt;设置文本的装饰&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;none&lt;/code&gt; : 默认值 &amp;lt;br&amp;gt; &lt;code&gt;underline&lt;/code&gt; : 下划线 &amp;lt;br&amp;gt; &lt;code&gt;overline&lt;/code&gt; : 上划线 &amp;lt;br&amp;gt; &lt;code&gt;line-through&lt;/code&gt; : 删除线 &amp;lt;br&amp;gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;text-shadow&lt;/td&gt;
-&lt;td&gt;文本阴影&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;color&lt;/code&gt; : 阴影颜色 &amp;lt;br&amp;gt; &lt;code&gt;x-offset&lt;/code&gt; :x 轴位移 &amp;lt;br&amp;gt; &lt;code&gt;y-offset&lt;/code&gt; :y 轴位移 &amp;lt;br&amp;gt; &lt;code&gt;blur-radius&lt;/code&gt; : 阴影模糊范围 &amp;lt;br&amp;gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;letter-spacing&lt;/td&gt;
-&lt;td&gt;定义字间距，字符与字符间&lt;/td&gt;
-&lt;td&gt;默认 normal, 允许为负&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;word-spacing&lt;/td&gt;
-&lt;td&gt;定义英文单词之间的间距，中文无效&lt;/td&gt;
-&lt;td&gt;默认 normal, 允许为负&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;text-transform&lt;/td&gt;
-&lt;td&gt;控制英文字母的大小写&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;none&lt;/code&gt; : 不转换，默认 &amp;lt;br&amp;gt; &lt;code&gt;capitalize&lt;/code&gt; : 首字母大写 &amp;lt;br&amp;gt; &lt;code&gt;uppercase&lt;/code&gt; : 全部字符转换为大写 &amp;lt;br&amp;gt; &lt;code&gt;lowercase&lt;/code&gt; : 全部字符转换为小写 &amp;lt;br&amp;gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;white-space&lt;/td&gt;
-&lt;td&gt;设置空白符的处理方式&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;normal&lt;/code&gt; : 文本中的空格、空行无效，满行（到达区域边界）后自动换行 &amp;lt;br&amp;gt; &lt;code&gt;pre&lt;/code&gt; : 预格式化，按文档的书写格式保留空格、空行原样显示 &amp;lt;br&amp;gt; &lt;code&gt;nowrap&lt;/code&gt; : 空格空行无效，强制文本不能换行，除非遇到换行标签 &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; 。内容超出元素的边界也不换行，若超出浏览器页面则会自动增加滚动条 &amp;lt;br&amp;gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;css3新增文本外观属性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#css3新增文本外观属性&#34;&gt;#&lt;/a&gt; CSS3 新增文本外观属性&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;text-shadow&lt;/code&gt; : 为文本添加阴影效果，可加多个，用逗号隔开
-&lt;ul&gt;
-&lt;li&gt;h-shadow: 垂直偏移量&lt;/li&gt;
-&lt;li&gt;v-shadow: 水平偏移量&lt;/li&gt;
-&lt;li&gt;blur: 阴影扩展半径&lt;/li&gt;
-&lt;li&gt;color: 阴影颜色&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;text-overflow&lt;/code&gt; : 用于标示对象内溢出的文本
-&lt;ul&gt;
-&lt;li&gt;clip: 修剪溢出文本，不显示省略标签 “…”&lt;/li&gt;
-&lt;li&gt;ellipsis: 用省略标签 “…” 标示被修剪文本，省略标签插入的位置是最后一个字符。
-&lt;ul&gt;
-&lt;li&gt;定义包含文本的对象宽度&lt;/li&gt;
-&lt;li&gt;应用 &lt;code&gt;white-space:nowrap;&lt;/code&gt; ”` 样式强制文本不能换行。&lt;/li&gt;
-&lt;li&gt;应用 &lt;code&gt;overflow:hidden;&lt;/code&gt;  样式隐藏溢出文本。&lt;/li&gt;
-&lt;li&gt;应用 &lt;code&gt;text-overflow:ellipsis;&lt;/code&gt;  样式显示省略标签。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;超链接伪类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#超链接伪类&#34;&gt;#&lt;/a&gt; &lt;strong&gt;超链接伪类&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;| 伪类名 | 含义 |&lt;br /&gt;
-|--|--|&lt;br /&gt;
-|link | 未单击访问时超链接样式 |&lt;br /&gt;
-|visited | 单机访问后超链接样式 |&lt;br /&gt;
-|hover | 鼠标悬浮其上时的超链接样式 |&lt;br /&gt;
-|active | 鼠标单击未释放的超链接样式 |&lt;br /&gt;
- 设置伪类的顺序：link&amp;gt;visit&amp;gt;hover&amp;gt;active&lt;/p&gt;
-&lt;h3 id=&#34;列表样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#列表样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;列表样式&lt;/strong&gt;&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;code&gt;list-style-type&lt;/code&gt;&lt;/th&gt;
-&lt;th&gt;none: 无标记符号 &amp;lt;br&amp;gt;disc: 实心圆，默认类型 &amp;lt; br&amp;gt;circle: 空心圆 &amp;lt; br&amp;gt;square: 实心正方形 &amp;lt; br&amp;gt;decimal: 数字&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;背景样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景样式&#34;&gt;#&lt;/a&gt; &lt;strong&gt;背景样式&lt;/strong&gt;&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;属性名&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;th&gt;使用&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;background-color&lt;/td&gt;
-&lt;td&gt;设置背景颜色&lt;/td&gt;
-&lt;td&gt;十六进制 - 如：&amp;quot;#ff0000&amp;quot;&amp;lt;br&amp;gt;RGB - 如：&amp;quot;rgb (255,0,0)&amp;quot;&amp;lt;br &amp;gt; 颜色名称 - 如：&amp;quot;red&amp;quot;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;background-image&lt;/td&gt;
-&lt;td&gt;设置背景图片&lt;/td&gt;
-&lt;td&gt;url (图片路径)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;background-repeat&lt;/td&gt;
-&lt;td&gt;设置背景图片的平铺方式&lt;/td&gt;
-&lt;td&gt;repeat: 向水平和垂直方向平铺 &amp;lt;br&amp;gt;repeat-x: 水平平铺 &amp;lt; br&amp;gt;repeat-y: 垂直平铺 &amp;lt; br&amp;gt;no-repeat: 不平铺&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;background-position&lt;/td&gt;
-&lt;td&gt;设置背景图片的位置&lt;/td&gt;
-&lt;td&gt;X  Y:X 表示水平位置，Y 表示垂直位置 &amp;lt;br&amp;gt;X%  Y%：用百分比控制在水平和垂直方向的位置 &amp;lt; br &amp;gt; 关键字：水平方向：left,center,right; 垂直方向：top,center,bottom&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;background-size&lt;/td&gt;
-&lt;td&gt;设置背景图片的大小&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;background-attachment&lt;/td&gt;
-&lt;td&gt;背景图像是否固定或者随着页面的其余部分滚动&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;auto&lt;/code&gt; : 默认值，维持原样 &amp;lt;br&amp;gt; &lt;code&gt;percentage&lt;/code&gt; : 相对于元素宽度来计算 &amp;lt;br&amp;gt; &lt;code&gt;cover&lt;/code&gt; : 放大背景图片填充整个元素 &amp;lt;br&amp;gt; &lt;code&gt;contain&lt;/code&gt; : 让背景图片保持本身的宽高比例，将背景图片缩放到宽度或者高度正好适应所定义背景的区域&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;pre&gt;&lt;code&gt;简写背景样式：`background` 当使用简写属性时，属性值的顺序为：:
-
-background-color
-background-image
-background-repeat
-background-attachment
-background-position
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;线性渐变&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性渐变&#34;&gt;#&lt;/a&gt; 线性渐变&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;线性渐变：颜色沿着一条直线过渡：从左到右、从右到左、从上到下等&lt;br /&gt;
- css3 渐变兼容：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IE:  &lt;code&gt;-ms-&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Chrome: &lt;code&gt;-webkit&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Safari: &lt;code&gt;-webkit&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Opera: &lt;code&gt;-o-&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Firefox: &lt;code&gt;-moz-&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;举例：-webkit-linear-gradient ( position,color1，color2,...)
-posion为渐变方向
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;引用样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用样式&#34;&gt;#&lt;/a&gt; 引用样式&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;行内样式表&lt;br /&gt;
-使用  &lt;code&gt;style&lt;/code&gt;  属性定义在标签上&lt;/li&gt;
-&lt;li&gt;内部样式表&lt;br /&gt;
-使用  &lt;code&gt;style&lt;/code&gt;  标签定义在当前 HTML 页面内部，一般在 &lt;code&gt;head&lt;/code&gt;  标签内&lt;/li&gt;
-&lt;li&gt;外部样式表&lt;br /&gt;
-将样式定义在外部  &lt;code&gt;*.css&lt;/code&gt;  文件中，通过  &lt;code&gt;link&lt;/code&gt;  标签或者  &lt;code&gt;@import &lt;/code&gt; 指令导入本页面。&lt;br /&gt;
-链接式与导入式的区别:&lt;br /&gt;
-- link 方式，导入时会停止 HTML 页面解析，直到 css 文件导入之后，才继续解析；&lt;br /&gt;
--    import 方式，运行到 import 指令时，页面会继续解析 (即：显示)；css 文件异步加载，直到加载后才会显示出样式效果。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;样式的优先级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#样式的优先级&#34;&gt;#&lt;/a&gt; 样式的优先级&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;分别在不同位置 (外部、内部、行内) 定义的同名的样式 (比如：标签、类样式名称相同)，遵从 “就近原则”&lt;/li&gt;
-&lt;li&gt;名称不同，但重复选中的标签的样式，效果遵循 “特殊者有限原则”(id&amp;gt;class &amp;gt; 标签 &amp;gt;*); 选择器优于书写位置。&lt;/li&gt;
-&lt;li&gt;如果定义了 2 个类标签，其中包含相同的样式，但值不同。比如：定义类  &lt;code&gt;.red&amp;#123;color:red&amp;#125; .green&amp;#123;color:green&amp;#125;。&lt;/code&gt; &lt;br /&gt;
-如果这两个类都作用于同一个标签上，比如： &lt;code&gt;&amp;lt;p class=&amp;quot;green red&amp;quot; &amp;gt;xxx&amp;lt;/p&amp;gt;&lt;/code&gt; &lt;br /&gt;
- 那么按照书写时的顺序 (并非引用时的顺序)，后者优先。如上则颜色为 green。&lt;/li&gt;
-&lt;li&gt;更复杂的情况，可以通过计算标签被不同方式选中的次数来判断优先级。&lt;/li&gt;
-&lt;/ul&gt;
 </content>
         <category term="计算机科学与技术" scheme="https://lollipopazhe.github.io/categories/computer-science/" />
         <category term="Web前端技术" scheme="https://lollipopazhe.github.io/categories/computer-science/Web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/" />
