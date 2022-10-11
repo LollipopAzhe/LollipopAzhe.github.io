@@ -1331,7 +1331,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 30pt;
+  --global-font-size: 16pt;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
