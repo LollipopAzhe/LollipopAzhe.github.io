@@ -1,0 +1,566 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Chapter01-初识C++ | Azhe</title><meta name="keywords" content="C,C++"><meta name="author" content="Azhe"><meta name="copyright" content="Azhe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1. 程序设计语言 机器语言：计算机能直接识别和接受的二进制代码称为机器指令。机器指令的集合就是该计算机的机器语言。 特点：难学，难记，难检查，难修改，难以推广使用。依赖具体机器难以移植。   汇编语言：机器语言的符号化。用英文字母和数字表示指令的符号语言。 特点：相比机器语言简单好记，但仍然难以普及。汇编指令需通过汇编程序转换为机器指令才能被计算机执行。依赖具体机器难以移植。   高级语言：高级">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chapter01-初识C++">
+<meta property="og:url" content="https://lollipopazhe.github.io/2021/09/07/study/c/chapter01/index.html">
+<meta property="og:site_name" content="Azhe">
+<meta property="og:description" content="1. 程序设计语言 机器语言：计算机能直接识别和接受的二进制代码称为机器指令。机器指令的集合就是该计算机的机器语言。 特点：难学，难记，难检查，难修改，难以推广使用。依赖具体机器难以移植。   汇编语言：机器语言的符号化。用英文字母和数字表示指令的符号语言。 特点：相比机器语言简单好记，但仍然难以普及。汇编指令需通过汇编程序转换为机器指令才能被计算机执行。依赖具体机器难以移植。   高级语言：高级">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg">
+<meta property="article:published_time" content="2021-09-07T11:26:32.000Z">
+<meta property="article:modified_time" content="2022-10-10T08:44:27.931Z">
+<meta property="article:author" content="Azhe">
+<meta property="article:tag" content="C">
+<meta property="article:tag" content="C++">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://lollipopazhe.github.io/2021/09/07/study/c/chapter01/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":null,"messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Azhe","link":"链接: ","source":"来源: Azhe","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Chapter01-初识C++',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-10-10 16:44:27'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s1.ax1x.com/2022/10/11/xtHdw4.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/images/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Azhe</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/images/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Chapter01-初识C++</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-09-07T11:26:32.000Z" title="发表于 2021-09-07 19:26:32">2021-09-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-10-10T08:44:27.931Z" title="更新于 2022-10-10 16:44:27">2022-10-10</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/study/">学习</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/study/C%E8%AF%AD%E8%A8%80/">C语言</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>8分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Chapter01-初识C++"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="1-程序设计语言"><a href="#1-程序设计语言" class="headerlink" title="1. 程序设计语言"></a>1. 程序设计语言</h2><ul>
+<li>机器语言：计算机能直接识别和接受的二进制代码称为<strong>机器指令</strong>。机器指令的集合就是该计算机的<strong>机器语言</strong>。<ul>
+<li>特点：难学，难记，难检查，难修改，难以推广使用。依赖具体机器难以移植。</li>
+</ul>
+</li>
+<li>汇编语言：机器语言的符号化。用英文字母和数字表示指令的<strong>符号语言</strong>。<ul>
+<li>特点：相比机器语言简单好记，但仍然难以普及。汇编指令需通过汇编程序转换为机器指令才能被计算机执行。依赖具体机器难以移植。</li>
+</ul>
+</li>
+<li>高级语言：高级语言更接近于人们习惯使用的自然语言和数学语言。<ul>
+<li>特点：功能强大，不依赖于具体机器。用高级语言编写的<strong>源程序</strong>需要通过<strong>编译程序</strong>转换为机器指令的<strong>目标程序</strong>。</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-C与C-语言"><a href="#2-C与C-语言" class="headerlink" title="2. C与C++语言"></a>2. C与C++语言</h2><ul>
+<li>1972年，Bell实验室的Dennis Ritchie和Ken Thompson共同发明了C语言。C语言充分结合了汇编语言和高级语言的优点，高效灵活，且易于移植，很快得到广泛使用。 </li>
+<li>1979年，Bjarne Stroustrup加入Bell实验室，开始致力于将C改良为带类的C（C with classes）。1983年该语言被正式命名为C++。ANSI和ISO的联合标准化委员会在1994年1 月25曰提出了第一个C++标准化草案，该草案保持了Stroustrup最初定义的所有特征。 </li>
+<li>在完成C++标准化的第一个草案后不久，Alexander stepanov创建了标准模板库（STL）。在通过了第一个草案之后，委员会投票并通过了将STL包含到C++标准中的提议。</li>
+<li>委员会于1997年11月14日通过了该标准的最终草案，1998年C++的ANSI&#x2F;ISO标准被投入使用。通常此版本的C++被认为是标准C++，所有的主流C++编译器都支持该版本的C++，包括微软的Visual C++和Borland公司的C++Builder。</li>
+</ul>
+<h2 id="3-第一个C-程序"><a href="#3-第一个C-程序" class="headerlink" title="3. 第一个C++程序"></a>3. 第一个C++程序</h2><ul>
+<li>在屏幕上输出“I love c++ programming!”。<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> cout&lt;&lt;<span class="string">&quot;I love c++ programming!&quot;</span>;</span><br><span class="line"> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="4-内存和变量"><a href="#4-内存和变量" class="headerlink" title="4. 内存和变量"></a>4. 内存和变量</h2><p><strong>存储器是计算机系统的重要组成部分，是用来存储程序和数据的部件</strong></p>
+<ul>
+<li><ol>
+<li>存储器按其用途可分为<strong>主存储器（内存）</strong>和<strong>辅助存储器（外存）</strong>。</li>
+</ol>
+</li>
+<li>内存存取速度快，是CPU能够直接寻址的存储空间。<ul>
+<li>存储器中每一个字节均对应唯一的编码地址，通常以<code>8 bit</code>位组成一个字节(byte)为基本单位，每2^10^(1024) byte为1KB，2^10^KB为1MB，2^10^MB为1GB，2^10^GB为1TB。</li>
+</ul>
+</li>
+<li><ol start="2">
+<li>变量：具有特定属性的内存单元，可通过变量名直接引用该存储单元。</li>
+</ol>
+<ul>
+<li>在C++中，变量必须遵循<code>&quot;先定义后使用&quot;</code>的原则。变量命名遵循以下规则<ol>
+<li>变量名只能由字母、数字和下划线组成。</li>
+<li>变量名不能以数字开头。</li>
+<li>变量名不能使用系统保留的关键字。<br><img src="https://z3.ax1x.com/2021/09/07/hIjuf1.png" alt="关键字"></li>
+<li>变量名严格区分大小写。</li>
+<li>变量名尽可能做到<strong>见名知义</strong>。</li>
+</ol>
+</li>
+<li>定义变量的一般格式 ：<strong>数据类型 变量1,变量2,……,变量n;</strong><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a,b,c;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h2 id="5-cin-x2F-cout输入输出"><a href="#5-cin-x2F-cout输入输出" class="headerlink" title="5. cin&#x2F;cout输入输出"></a>5. cin&#x2F;cout输入输出</h2><p>C++的输入和输出均是采用“流”(stream)方式实现，有关流对象<em>cin、cout</em>和流运算符的信息均存放于C++的输入输出流库中。<br>因此，若要在程序中使用cin、cout和流运算符，则必须用预处理命令++ “#include <iostream>” ++{.primary}将头文<code>iostream</code>包含到本文件中。</p>
+<ul>
+<li>使用<code>cin</code>可输入多个变量的值，其一般格式：<br> <strong>cin &gt;&gt; 变量1 &gt;&gt; 变量2 …… &gt;&gt; 变量n;</strong>  </li>
+<li>使用<code>cout</code>可输出多个表达式的值，其一般格式：<br> <strong>cout &lt;&lt; 表达式1 &lt;&lt; 表达式2 …… &lt;&lt; 表达式n;</strong><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="type">int</span> a, b;</span><br><span class="line">cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">cout &lt;&lt; a + b &lt;&lt; endl;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="6-整数类型"><a href="#6-整数类型" class="headerlink" title="6. 整数类型"></a>6. 整数类型</h2><h3 id="进制转换"><a href="#进制转换" class="headerlink" title="进制转换"></a>进制转换</h3><p><strong>进制</strong>由符号集和两个基本因数“基数”与“位权”构成，<strong>基数</strong>指不同符号的个数，<strong>位权</strong>指进制每一固定位对应的权值。十进制是10个符号的排列组合，二进制是2个符号的排列组合。</p>
+<ul>
+<li><ol>
+<li>十进制转二进制</li>
+</ol>
+<ul>
+<li>对于整数部分，用被除数反复除以2（第一次取该整数为被除数，以后每次均取前一次商<br> 的整数部分作被除数），依次记下每次的余数并将余数倒序排列，便是转换后的二进制数。</li>
+<li>对于小数部分，采用连续乘以基数2并依次取出整数部分，直至其小数部分为0结束。<br> [以十进制数53转换为二进制数为例，53连续六次除以2后，得到的余数依次是：1、0、1、 0、1、1。将所有余数倒序排列为110101。因此十进制数53转换成二进制数为110101。]{.blue}</li>
+<li>十进制转八进制、十六进制同理</li>
+</ul>
+</li>
+<li><ol start="2">
+<li>[二进制转十进制]{.green}</li>
+</ol>
+<ul>
+<li>二进制数第0位的权值是2的0次方，第1位的权值是2的1次方，……。<br> 如二进制数0110 0100转换成十进制数为100。</li>
+</ul>
+</li>
+<li><ol start="3">
+<li>[二进制转八进制、十六进制]{.red}</li>
+</ol>
+<ul>
+<li>二进制转八进制，从右往左将二进制数每三位分为一组，剩余不足三位的前面用0补齐，每组按权值求和即可。<br> 如<code>1001100101001110</code>,从右往左分组为<code>001``001``100``101``001``110</code>，按权值求和为<code>1``1``4``5``1``6</code>;所以转为八进制为<code>114516</code>。</li>
+<li>二进制转十六进制，从右往左将二进制数每四位分为一组，剩余不足四位的前面用0补齐，每组按权值求和即可。<br> 如<code>11111110110110101</code>,从右往左分组为，<br> <code>0001``1111``1101``1011``0101</code>按权值求和为<code>1``F``D``B``5</code>;所以转为十六进制为<code>1FDB5</code>,可加前缀<code>0x</code>。也可以参考对照表。<br> <img src="https://z3.ax1x.com/2021/09/07/hoiNtO.png" alt="二进制转十六进制对照表"><br><strong>原码、反码、补码</strong><br>[计算机中的有符号数存在<strong>原码、反码和补码</strong>三种表示方法]{.aqua}</li>
+</ul>
+</li>
+<li>原码表示法的最高位为符号位，正数该位为0，负数该位为1；其余位为数值位，表示数值的大小，为该数绝对值的二进制形式。</li>
+<li>正数的反码与原码相同，负数的反码为该数原码的符号位不变数值位取反(0变为1，1变为0)。反码通常用作原码和补码之间的过渡码。</li>
+<li>正数的补码与原码相同，负数的补码为该数反码加1。</li>
+<li>在计算机系统中，数值一律采用补码来表示和存储，其原因在于：<br>（1）补码也可将加减运算进行统一处理；<br>（2）补码可将符号位和数值位统一处理。<br>[举个栗子]{.label}，以短整型数据分配2个字节存储空间为例。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>位序</th>
+<th>15</th>
+<th>14</th>
+<th>13</th>
+<th>12</th>
+<th>11</th>
+<th>10</th>
+<th>9</th>
+<th>8</th>
+<th>7</th>
+<th>6</th>
+<th>5</th>
+<th>4</th>
+<th>3</th>
+<th>2</th>
+<th>1</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>13的原码</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-13的原码</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-13的反码</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>-13的补码</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Dev-C++环境中各种类型整数所占用存储单元长度及取值范围</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>整数类型</th>
+<th>字节数</th>
+<th>取值范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>[signed] int</td>
+<td>4</td>
+<td>-2^31^~2^31^-1</td>
+</tr>
+<tr>
+<td>unsigned [int]</td>
+<td>4</td>
+<td>0~2^32^-1</td>
+</tr>
+<tr>
+<td>[signed] short [int]</td>
+<td>2</td>
+<td>-2^15^~2^15^-1</td>
+</tr>
+<tr>
+<td>unsigned short [int]</td>
+<td>2</td>
+<td>0~2^16^-1</td>
+</tr>
+<tr>
+<td>[signed] long [int]</td>
+<td>4</td>
+<td>-2^31^~2^31^-1</td>
+</tr>
+<tr>
+<td>unsigned long [int]</td>
+<td>4</td>
+<td>0~2^32^-1</td>
+</tr>
+<tr>
+<td>[signed] long long [int]</td>
+<td>8</td>
+<td>-2^63^~2^63^-1</td>
+</tr>
+<tr>
+<td>unsigned long long [int]</td>
+<td>8</td>
+<td>0~2^64^-1</td>
+</tr>
+</tbody></table>
+<h2 id="7-浮点类型"><a href="#7-浮点类型" class="headerlink" title="7. 浮点类型"></a>7. 浮点类型</h2><table>
+<thead>
+<tr>
+<th>浮点类型</th>
+<th>字节数</th>
+<th>有效数字</th>
+<th>绝对值取值范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>float</td>
+<td>4</td>
+<td>6</td>
+<td>0以及1.2 * 10^-38^~3.4 * 10^38^</td>
+</tr>
+<tr>
+<td>double</td>
+<td>8</td>
+<td>15</td>
+<td>0以及2.3 * 10^-308^~1.7*10^308^</td>
+</tr>
+<tr>
+<td>long double</td>
+<td>16</td>
+<td>19</td>
+<td>0以及3.4 * 10^-4932^~1.1*10^4932^</td>
+</tr>
+</tbody></table>
+<p><strong>常用函数：绝对值与取整函数；指数、对数、开方函数</strong></p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>int abs(int i)</td>
+<td>返回整数的绝对值</td>
+</tr>
+<tr>
+<td>double fabs(double d)</td>
+<td>返回双精度数的绝对值</td>
+</tr>
+<tr>
+<td>double labs(long n)</td>
+<td>返回长整型数的绝对值</td>
+</tr>
+<tr>
+<td>double ceil(double d)</td>
+<td>向上取整</td>
+</tr>
+<tr>
+<td>double floor(double d)</td>
+<td>向下取整</td>
+</tr>
+<tr>
+<td>double round(double d)</td>
+<td>四舍五入</td>
+</tr>
+<tr>
+<td>double log(double x)</td>
+<td>返回自然对数ln(x)的值</td>
+</tr>
+<tr>
+<td>double log10(double x)</td>
+<td>返回常用对数lg(x)的值</td>
+</tr>
+<tr>
+<td>double pow(double x, double y)</td>
+<td>返回x的y次幂</td>
+</tr>
+<tr>
+<td>double pow10(int p)</td>
+<td>返回10的p次幂</td>
+</tr>
+<tr>
+<td>double sqrt(double x)</td>
+<td>返回x的平方根</td>
+</tr>
+</tbody></table>
+<h2 id="8-字符类型"><a href="#8-字符类型" class="headerlink" title="8. 字符类型"></a>8. 字符类型</h2><table>
+<thead>
+<tr>
+<th>位序</th>
+<th>7</th>
+<th>6</th>
+<th>5</th>
+<th>4</th>
+<th>3</th>
+<th>2</th>
+<th>1</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>字符’A’</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>字符’a’</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>字符’0’</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>字符’1’</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<p>占用存储空间和取值范围</p>
+<table>
+<thead>
+<tr>
+<th>字符类型</th>
+<th>字节数</th>
+<th>取值范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>signed char</td>
+<td>1</td>
+<td>-2^7^~2^7^-1</td>
+</tr>
+<tr>
+<td>unsigned char</td>
+<td>1</td>
+<td>0~2^8^-1</td>
+</tr>
+</tbody></table>
+<h2 id="9．程序设计的步骤与程序流程图表示"><a href="#9．程序设计的步骤与程序流程图表示" class="headerlink" title="9．程序设计的步骤与程序流程图表示"></a>9．程序设计的步骤与程序流程图表示</h2><p>程序设计的步骤</p>
+<ol>
+<li>分析问题</li>
+<li>设计算法</li>
+<li>编写程序</li>
+<li>调试程序</li>
+<li>撰写文档<br>  <img src="https://z3.ax1x.com/2021/09/07/hoGqIS.png" alt="程序流程图基本元素"></li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://lollipopazhe.github.io">Azhe</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://lollipopazhe.github.io/2021/09/07/study/c/chapter01/">https://lollipopazhe.github.io/2021/09/07/study/c/chapter01/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://lollipopazhe.github.io" target="_blank">Azhe</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/C/">C</a><a class="post-meta__tags" href="/tags/C/">C++</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021/09/12/study/c/practice01/"><img class="prev-cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">C语言编程题01</div></div></a></div><div class="next-post pull-right"><a href="/2021/08/30/study/database/chapter01/"><img class="next-cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Chapter01-数据库系统概述</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2021/09/12/study/c/chapter02/" title="Chapter02-基本数据类型、运算符及表达式"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-09-12</div><div class="title">Chapter02-基本数据类型、运算符及表达式</div></div></a></div><div><a href="/2021/10/12/study/c/chapter03/" title="Chapter03-语法结构"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-10-12</div><div class="title">Chapter03-语法结构</div></div></a></div><div><a href="/2021/10/29/study/c/match01/" title="C语言周赛01"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-10-29</div><div class="title">C语言周赛01</div></div></a></div><div><a href="/2021/09/12/study/c/practice01/" title="C语言编程题01"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-09-12</div><div class="title">C语言编程题01</div></div></a></div><div><a href="/2021/10/29/study/c/practice02/" title="C语言编程题02"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-10-29</div><div class="title">C语言编程题02</div></div></a></div><div><a href="/2021/11/13/study/c/practice03/" title="C语言编程题03"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-11-13</div><div class="title">C语言编程题03</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://s1.ax1x.com/2022/10/11/xtHdw4.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Azhe</div><div class="author-info__description">杂记</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/LollipopAzhe"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/LollipopAzhe" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">1. 程序设计语言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-C%E4%B8%8EC-%E8%AF%AD%E8%A8%80"><span class="toc-number">2.</span> <span class="toc-text">2. C与C++语言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E7%AC%AC%E4%B8%80%E4%B8%AAC-%E7%A8%8B%E5%BA%8F"><span class="toc-number">3.</span> <span class="toc-text">3. 第一个C++程序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%86%85%E5%AD%98%E5%92%8C%E5%8F%98%E9%87%8F"><span class="toc-number">4.</span> <span class="toc-text">4. 内存和变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-cin-x2F-cout%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA"><span class="toc-number">5.</span> <span class="toc-text">5. cin&#x2F;cout输入输出</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%95%B4%E6%95%B0%E7%B1%BB%E5%9E%8B"><span class="toc-number">6.</span> <span class="toc-text">6. 整数类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2"><span class="toc-number">6.1.</span> <span class="toc-text">进制转换</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%B5%AE%E7%82%B9%E7%B1%BB%E5%9E%8B"><span class="toc-number">7.</span> <span class="toc-text">7. 浮点类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%AD%97%E7%AC%A6%E7%B1%BB%E5%9E%8B"><span class="toc-number">8.</span> <span class="toc-text">8. 字符类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9%EF%BC%8E%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%AD%A5%E9%AA%A4%E4%B8%8E%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B%E5%9B%BE%E8%A1%A8%E7%A4%BA"><span class="toc-number">9.</span> <span class="toc-text">9．程序设计的步骤与程序流程图表示</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/10/10/hello-world/" title="Hello World"><img src="https://s1.ax1x.com/2022/10/11/xtHdw4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/10/10/hello-world/" title="Hello World">Hello World</a><time datetime="2022-10-10T11:34:10.412Z" title="发表于 2022-10-10 19:34:10">2022-10-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/24/study/c/exam/" title="C++期末复习题"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="C++期末复习题"/></a><div class="content"><a class="title" href="/2021/11/24/study/c/exam/" title="C++期末复习题">C++期末复习题</a><time datetime="2021-11-24T02:15:32.000Z" title="发表于 2021-11-24 10:15:32">2021-11-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/22/study/java/exam/" title="Java期末复习题"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java期末复习题"/></a><div class="content"><a class="title" href="/2021/11/22/study/java/exam/" title="Java期末复习题">Java期末复习题</a><time datetime="2021-11-22T13:33:32.000Z" title="发表于 2021-11-22 21:33:32">2021-11-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/13/study/c/practice03/" title="C语言编程题03"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="C语言编程题03"/></a><div class="content"><a class="title" href="/2021/11/13/study/c/practice03/" title="C语言编程题03">C语言编程题03</a><time datetime="2021-11-13T11:26:32.000Z" title="发表于 2021-11-13 19:26:32">2021-11-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/08/study/network/chapter04/" title="Chapter04-网络层"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Chapter04-网络层"/></a><div class="content"><a class="title" href="/2021/11/08/study/network/chapter04/" title="Chapter04-网络层">Chapter04-网络层</a><time datetime="2021-11-08T07:34:32.000Z" title="发表于 2021-11-08 15:34:32">2021-11-08</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2022 By Azhe</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
